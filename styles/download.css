@@ -17,6 +17,16 @@
     }
 
     @media (width >= 80em) {
-        .card
+        .card{
+            padding: 8.73rem 5rem;
+
+            & > div:nth-child(1) {
+                max-width: 40rem;
+            }
+
+            & > img {
+                width: 29.25rem;
+            }
+        }
     }
 }
