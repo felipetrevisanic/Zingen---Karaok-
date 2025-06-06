@@ -58,7 +58,7 @@
 
   &::after {
     content: attr(aria-label);
-    background-color: var(--btn-bg-color);
+    background: var(--btn-bg-color);
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;

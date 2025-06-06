@@ -89,7 +89,7 @@
     }
 
     @media (width >=80em) {
-        --fs-price: 2.5rem
+        --fs-price: 2.5rem;
 
         & header {
             max-width: 50rem;
@@ -97,11 +97,11 @@
         }
 
         & .premium .card {
-            padding-bottom:6rem
+            padding-bottom: 6rem;
         }
 
         & .card:nth-child(3) .separator {
-            margin-block: 1.5rem
+            margin-block: 1.5rem;
         }
 
         .btn-md {
